@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD1AE4E822C2C7EA00F08E89 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AD1AE4E722C2C7E900F08E89 /* SqueezeNet.mlmodel */; };
+		AD1AE4EA22C4036000F08E89 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AD1AE4E922C4036000F08E89 /* Resnet50.mlmodel */; };
 		AD7AF75022C1586300A02680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7AF74F22C1586300A02680 /* AppDelegate.swift */; };
 		AD7AF75222C1586300A02680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7AF75122C1586300A02680 /* ViewController.swift */; };
 		AD7AF75522C1586300A02680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7AF75322C1586300A02680 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD1AE4E722C2C7E900F08E89 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		AD1AE4E922C4036000F08E89 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		AD7AF74C22C1586300A02680 /* SmartCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7AF74F22C1586300A02680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD7AF75122C1586300A02680 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,7 +103,9 @@
 			children = (
 				AD7AF74F22C1586300A02680 /* AppDelegate.swift */,
 				AD7AF75122C1586300A02680 /* ViewController.swift */,
+				AD1AE4E922C4036000F08E89 /* Resnet50.mlmodel */,
 				AD7AF75322C1586300A02680 /* Main.storyboard */,
+				AD1AE4E722C2C7E900F08E89 /* SqueezeNet.mlmodel */,
 				AD7AF75622C1586600A02680 /* Assets.xcassets */,
 				AD7AF75822C1586600A02680 /* LaunchScreen.storyboard */,
 				AD7AF75B22C1586600A02680 /* Info.plist */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD7AF75222C1586300A02680 /* ViewController.swift in Sources */,
+				AD1AE4E822C2C7EA00F08E89 /* SqueezeNet.mlmodel in Sources */,
+				AD1AE4EA22C4036000F08E89 /* Resnet50.mlmodel in Sources */,
 				AD7AF75022C1586300A02680 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
